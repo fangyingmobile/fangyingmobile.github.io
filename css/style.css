@@ -1688,6 +1688,13 @@ HOME V2 - PARALLAX BACKGROUND WITH FLEX TEXT SLIDER
     border-color: #03a9f4;
 }
 
+#home canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -100;
+}
+
 #home-slider.flexslider {
     background-color: transparent;
     -webkit-border-radius: 0px;
